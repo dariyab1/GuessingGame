@@ -5,6 +5,7 @@ public class GuessingGame {
         System.out.println("I'm thinking of a number from 1 to 100.");
         int num=(int)(Math.random()*100+1);
         int guess=0;
+
         while (guess!=num){
             System.out.print("What's your guess:");
             guess=input.nextInt();
